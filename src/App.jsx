@@ -7,6 +7,11 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
+      <div>
+        <h1 className="text-emerald-500 text-5xl text-center mb-6 font-extrabold font-serif">
+          Review
+        </h1>
+      </div>
       <Review />
     </>
   );
