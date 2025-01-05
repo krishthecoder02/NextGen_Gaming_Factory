@@ -25,12 +25,15 @@ const Hero = () => {
             </span>{" "}
             Skill
           </h1>
-          <button className="bg-red-500 mt-10 px-3 py-2 rounded-lg text-white font-bold text-2xl sm:text-4xl sm:p-5 shadow-xl ring-1 ring-slate-900/5">
+          <button className="bg-[#00a8d1] mt-10 px-3 py-2 rounded-lg text-white font-bold text-2xl sm:text-4xl sm:p-5 shadow-xl ring-1 ring-slate-900/5">
             Message Me
           </button>
         </div>
-        <div className="flex flex-wrap justify-center mx-3 gap-4 ">
-          <div className="bg-[#14161b] p-4 rounded-lg  items-center  mt-10 border border-blue-500">
+        <div
+          className="flex flex-row flex-wrap
+         justify-center  gap-1 "
+        >
+          <div className="bg-[#14161b] p-2 rounded-lg  items-center  mt-10 border border-blue-500">
             <img
               src={ff1}
               alt="ss1"

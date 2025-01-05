@@ -3,7 +3,7 @@ import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#0B1120] sm:h-[56px] h-12 flex justify-between items-center sm:fixed w-full">
+    <div className="bg-[#0B1120] sm:h-[56px] h-16 flex justify-between items-center sm:fixed w-full">
       <img
         src={logo}
         alt="logo"
@@ -18,10 +18,13 @@ const Navbar = () => {
         >
           Channel
         </a>
+        <a href="/" className="text-white mr-4 font-bold font-serif">
+          About
+        </a>
         <a href="/" className="text-white mr-2 sm:mr-8 font-bold font-serif">
           Review
         </a>
-        <button className="text-white text-xs bg-[#0ea5e9] px-3 py-1 rounded-lg sm:text-lg font-bold font-serif hover:bg-[#064968] ">
+        <button className="text-white text-xs bg-[#0ea5e9] px-3 py-1 rounded-lg sm:text-lg font-bold font-serif hover:bg-[#064968] mr-3">
           Join Me
         </button>
       </div>
