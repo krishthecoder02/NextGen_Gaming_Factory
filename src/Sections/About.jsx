@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import QR from "../assets/frame.png";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
           Into Earning Skill This Is Live Module You Can Ask Your Dout Live
         </p>
       </div>
-      <div className="border-4 border-cyan-600 rounded-lg  flex justify-center bg-slate-100 mt-5">
+      <div className="border-4 border-cyan-600 sm:w-96 rounded-lg  flex justify-center bg-slate-100 mt-5">
         <ReactPlayer
           url="https://www.youtube.com/watch?v=6YnryDjEGr8&t=123s"
           controls={true}
@@ -36,13 +37,19 @@ const About = () => {
           <span className="font-bold text-white">Third Week : </span> Basic
           About Gaming Preview Other Channel
         </p>
-        <p className="bg-yellow-600 rounded-lg  mb-2">
+        <p className="bg-yellow-600 rounded-lg p-3 mb-2">
           <span className="font-bold text-white">Forth Week : </span> Basic
           About Gaming Preview Other Channel
         </p>
       </ul>
       <div>
-        <p></p>
+        <p
+          className="text-white text-2xl
+         font-extrabold text-center"
+        >
+          Join Group
+        </p>
+        <img src={QR} alt="QR code" />
       </div>
     </div>
   );
