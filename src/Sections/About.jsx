@@ -17,7 +17,7 @@ const About = () => {
         <ReactPlayer
           url="https://www.youtube.com/watch?v=6YnryDjEGr8&t=123s"
           controls={true}
-          width={370}
+          width={320}
           height={265}
         />
       </div>
@@ -36,7 +36,7 @@ const About = () => {
           <span className="font-bold text-white">Third Week : </span> Basic
           About Gaming Preview Other Channel
         </p>
-        <p className="bg-yellow-600 rounded-lg p-3 mb-2">
+        <p className="bg-yellow-600 rounded-lg  mb-2">
           <span className="font-bold text-white">Forth Week : </span> Basic
           About Gaming Preview Other Channel
         </p>
