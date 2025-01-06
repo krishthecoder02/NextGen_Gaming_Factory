@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="text-3xl my-8 font-extrabold text-white font-serif text-center">
         About <span className="text-[#00a8d1]">NextGen</span>
       </h1>
-      <div className="bg-gradient-to-r from-red-600 to-green-600 p-4 rounded-xl">
+      <div className="bg-gradient-to-r from-blue-600 to-green-600 p-4 rounded-xl">
         <p className="text-white font-bold">
           We Are Providing Live Class About How You Can turn Your Gaming Skill
           Into Earning Skill This Is Live Module You Can Ask Your Dout Live
@@ -17,7 +17,7 @@ const About = () => {
         <ReactPlayer
           url="https://www.youtube.com/watch?v=6YnryDjEGr8&t=123s"
           controls={true}
-          width={380}
+          width={370}
           height={265}
         />
       </div>
@@ -41,7 +41,9 @@ const About = () => {
           About Gaming Preview Other Channel
         </p>
       </ul>
-      <hr />
+      <div>
+        <p></p>
+      </div>
     </div>
   );
 };
