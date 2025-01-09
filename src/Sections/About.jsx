@@ -49,7 +49,7 @@ const About = () => {
         >
           Join Group
         </p>
-        <img src={QR} alt="QR code" />
+        <img src={QR} alt="QR code" width={300} className="sm:w-400" />
       </div>
     </div>
   );

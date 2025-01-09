@@ -7,6 +7,17 @@ import ff5 from "../assets/freefire5.jpg";
 import ff6 from "../assets/freefire6.jpg";
 
 const Hero = () => {
+  // const handleClick = () => {
+  //   window.location.href = "https://chat.whatsapp.com/Fy5oJ2ieYbVIRSfKElxF5I";
+  // };
+
+  const handleClick = () => {
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSeeBrNJ477uUWlGI0cHfv09RmWpxEQ-5iZIyAhTgyTycsLcgw/viewform?usp=dialog",
+      "_blank"
+    );
+  };
+
   return (
     <section className="bg-bannerImg bg-no-repeat bg-cover bg-bottom w-[100vw]  sm:p-16 mb-5">
       <div>
@@ -18,6 +29,7 @@ const Hero = () => {
             </span>{" "}
             Skill
           </h1>
+
           <h1 className="font-extrabold text-3xl sm:text-6xl text-white">
             To{" "}
             <span className="text-3xl sm:text-6xl  bg-gradient-to-r from-red-500 to-purple-600 bg-clip-text text-transparent">
@@ -25,7 +37,10 @@ const Hero = () => {
             </span>{" "}
             Skill
           </h1>
-          <button className="bg-[#00a8d1] mt-10 px-3 py-2 rounded-lg text-white font-bold text-2xl sm:text-4xl sm:p-5 shadow-xl ring-1 ring-slate-900/5">
+          <button
+            className="bg-[#00a8d1] mt-10 px-3 py-2 rounded-lg text-white font-bold text-2xl sm:text-4xl sm:p-5 shadow-xl ring-1 ring-slate-900/5"
+            onClick={handleClick}
+          >
             Message Me
           </button>
         </div>
@@ -33,7 +48,7 @@ const Hero = () => {
           className="flex flex-row flex-wrap
          justify-center  gap-1 "
         >
-          <div className="bg-[#14161b] p-2 rounded-lg  items-center  mt-10 border border-blue-500">
+          <a className="bg-[#14161b] p-2 rounded-lg  items-center  mt-10 border border-blue-500">
             <img
               src={ff1}
               alt="ss1"
@@ -44,7 +59,7 @@ const Hero = () => {
             <p className="font-bold text-white">
               Earning: <span className="text-green-600">~17k/month</span>
             </p>
-          </div>
+          </a>
           <div className="bg-[#14161b] p-2 rounded-lg  items-center  mt-10 border border-blue-500">
             <img
               src={ff2}
