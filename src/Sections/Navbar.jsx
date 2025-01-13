@@ -37,11 +37,11 @@ const Navbar = () => {
           Channel
         </a>
         <a
-          href="/"
-          className="text-white mr-4 font-bold font-serif"
-          onClick={handleAbout}
+          href="tel:6299172019"
+          className="text-white mr-4 font-bold font-serif underline"
+          // onClick={handleAbout}
         >
-          About
+          Call me
         </a>
         <a href="/" className="text-white mr-2 sm:mr-8 font-bold font-serif">
           Review
